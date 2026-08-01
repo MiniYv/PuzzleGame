@@ -1,0 +1,37 @@
+{
+    "daily_checkin_gold": {
+        "type": "int",
+        "default": 50,
+        "description": "每日签到获得金币"
+    },
+    "daily_checkin_gem_chance": {
+        "type": "int",
+        "default": 10,
+        "description": "每日签到获得宝石概率（百分比）"
+    },
+    "dungeon_gold_reward": {
+        "type": "int",
+        "default": 30,
+        "description": "完成副本基础金币奖励"
+    },
+    "dungeon_gem_reward": {
+        "type": "int",
+        "default": 2,
+        "description": "完成副本宝石奖励"
+    },
+    "explore_gold_base": {
+        "type": "int",
+        "default": 10,
+        "description": "跑图基础金币收益"
+    },
+    "rank_points_per_dungeon": {
+        "type": "int",
+        "default": 20,
+        "description": "每完成一个副本获得积分"
+    },
+    "max_inventory_items": {
+        "type": "int",
+        "default": 50,
+        "description": "背包最大容量"
+    }
+}

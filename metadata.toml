@@ -1,0 +1,25 @@
+[plugin]
+name        = "世界解谜之旅"
+version     = "1.0.0"
+author      = "MiniYv"
+description = "解谜副本、跑图探索、排行榜签到，双货币背包系统"
+priority    = 50
+icon        = "https://c-ssl.dtstatic.com/uploads/blog/202203/13/20220313132047_968db.thumb.1000_0.jpeg"
+dependencies = []
+category    = "娱乐"
+tags        = ["解谜", "游戏", "副本", "跑图"]
+repo        = "MiniYv/PuzzleGame"
+docs_url    = "https://github.com/MiniYv/PuzzleGame"
+min_framework = "0.1.0"
+
+[handler]
+entry       = "handle_puzzle"
+
+[trigger]
+commands       = ["/谜题", "/puzzle"]
+chat_type      = ["private", "group"]
+permission     = "all"
+is_at_required = false
+
+[trigger.command_descriptions]
+"/谜题" = "解谜游戏 - 查看帮助和开始游戏"
