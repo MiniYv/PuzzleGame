@@ -1,12 +1,12 @@
 """解谜游戏 — 包含副本、跑图、排行榜、签到、双货币、背包系统"""
 import os
-from graci import get_logger, on_command, plugin_handler, PluginContext, config_manager
+from graci import get_logger, on_command, plugin_handler, PluginContext, config_manager, get_plugin_data_dir
 
 logger = get_logger("PuzzleGame")
 
 config_manager.register_plugin_config("解谜游戏")
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+DATA_DIR = get_plugin_data_dir("PuzzleGame")
 
 
 @on_command("/谜题", "/puzzle")

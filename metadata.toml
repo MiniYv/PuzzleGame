@@ -1,6 +1,6 @@
 [plugin]
 name        = "世界解谜之旅"
-version     = "1.0.0"
+version     = "1.0.1"
 author      = "MiniYv"
 description = "解谜副本、跑图探索、排行榜签到，双货币背包系统"
 priority    = 50
